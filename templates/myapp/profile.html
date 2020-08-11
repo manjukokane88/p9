@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block title %}
+
+<title> profile page </title> 
+
+<link rel="icon" href="{% static 'images:3.jpg' %}">
+  
+{% endblock  %}
+
+{% block content  %}
+ 
+ <div class='container' >
+     <div class='jumbotron' >
+        <h3>well come to {{name}}  profile page </h3>
+     </div>
+ </div>
+  
+{% endblock  %}
